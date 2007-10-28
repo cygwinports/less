@@ -12,14 +12,14 @@ files, and you'll use it frequently.
 Runtime requirements:
   cygwin-1.5.24-2
   libncurses8-5.5-3
-  libpcre0-7.2-1
+  libpcre0-7.4-1
 
 Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-1
   autoconf2.5-2.61-1
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.6-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -34,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack less-406-X-src.tar.bz2
+  unpack less-409-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./less-406-X.cygport all
+  cygport ./less-409-X.cygport all
 
 This will create:
-  /usr/src/less-406-X-src.tar.bz2
-  /usr/src/less-406-X.tar.bz2
+  /usr/src/less-409-X-src.tar.bz2
+  /usr/src/less-409-X.tar.bz2
 
 -------------------------------------------
 
@@ -51,12 +51,12 @@ Files included in the binary package:
   /usr/bin/less.exe
   /usr/bin/lessecho.exe
   /usr/bin/lesskey.exe
-  /usr/share/doc/Cygwin/less-406.README
-  /usr/share/doc/less-406/COPYING
-  /usr/share/doc/less-406/INSTALL
-  /usr/share/doc/less-406/LICENSE
-  /usr/share/doc/less-406/NEWS
-  /usr/share/doc/less-406/README
+  /usr/share/doc/Cygwin/less-409.README
+  /usr/share/doc/less-409/COPYING
+  /usr/share/doc/less-409/INSTALL
+  /usr/share/doc/less-409/LICENSE
+  /usr/share/doc/less-409/NEWS
+  /usr/share/doc/less-409/README
   /usr/share/man/man1/less.1.gz
   /usr/share/man/man1/lessecho.1.gz
   /usr/share/man/man1/lesskey.1.gz
@@ -64,6 +64,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 409-1 -----
+Version bump.
 
 ----- version 406-1 -----
 Version bump.
