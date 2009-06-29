@@ -1,5 +1,5 @@
 category: Text
-requires: cygwin libncurses8 libpcre0
+requires: libncurses8 libpcre0
 sdesc: "A text file pager, similar to more(1)"
 ldesc: "The less utility is a text file browser that resembles more, but has
 more capabilities.  Less allows you to move backwards in the file as
