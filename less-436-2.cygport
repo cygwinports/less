@@ -1,3 +1,0 @@
-DESCRIPTION="Console pager"
-HOMEPAGE="http://www.greenwoodsoftware.com/less/"
-SRC_URI="http://www.greenwoodsoftware.com/less/${P}.tar.gz"
