@@ -1,5 +1,5 @@
 NAME="less"
-VERSION=458
+VERSION=471
 RELEASE=1
 CATEGORY="Text"
 SUMMARY="A text file pager, similar to more(1)"
